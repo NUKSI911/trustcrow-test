@@ -95,7 +95,7 @@ export default function CategoryDetail({
         error={categoryDetailQuery.isError}
       >
         <>
-          <AppBar className="flex flex-row justify-between items-center py-4 pl-4 bg-black" color="info">
+          <AppBar className="flex flex-row justify-between items-center pokemon-content py-4 pl-4 " color="info">
             <h1 className=" inline-block">
               {capitalize(categoryDetailQuery.data?.name || "")} Category
               Pokemons

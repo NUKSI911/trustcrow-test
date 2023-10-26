@@ -29,7 +29,7 @@ export default function PokemonDetailPage({
         error={pokemonDetailQuery.isError}
       >
         <Box>
-          <Box className="flex flex-col items-center justify-center  bg-black text-white mt-16 text-center rounded pt-8">
+          <Box className="flex flex-col items-center justify-center pokemon-content mt-16 text-center rounded pt-8">
             <Typography className="uppercase font-sans" variant="h1">
               {pokemonDetailQuery.data?.name}
             </Typography>
