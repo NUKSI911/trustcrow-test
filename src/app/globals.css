@@ -32,6 +32,6 @@ body {
 }
 
 .pokemon-content {
-  color: var( --background-end-rgb);
-  background-color: var(--foreground-rgb);
+  color: var( --background-end-rgb) !important;
+  background-color: var(--foreground-rgb) !important;
 }
